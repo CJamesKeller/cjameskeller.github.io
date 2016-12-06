@@ -1,0 +1,36 @@
+html, body{
+min-height: 100%;
+display: flex;
+flex-direction: column;
+font-weight: bold;
+}
+
+#container {
+	width: 1000px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-image: linear-gradient( to right, FloralWhite, LightGrey);
+}
+body{font-family: 'Constantia', serif;
+  background-color: Lavender;
+  background-repeat:repeat;
+}
+
+header {
+	text-align: center;
+	font-weight: bold;
+}
+
+.personal-info {
+	text-align: center;
+}
+
+.main-section{
+text-align: center;
+border-top: 2px groove LightGrey;
+}
+
+.year{
+	text-align: right;
+}
